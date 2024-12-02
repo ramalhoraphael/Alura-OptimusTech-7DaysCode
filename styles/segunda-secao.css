@@ -1,0 +1,38 @@
+.segunda-secao {
+    padding: 0 12.5%;
+}
+
+.segunda-secao__lista-de-metricas {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.segunda-secao__lista-de-metricas__metrica__itens {
+    padding: 0.2rem;
+}
+
+
+.segunda-secao__lista-de-metricas__metrica__itens-titulo {
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.5rem;
+    letter-spacing: -0.075rem;
+}
+
+.segunda-secao__lista-de-metricas__metrica__itens-subtitulo {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    padding-top: 0.5rem;
+}
+
+
+.segunda-secao__lista-de-metricas__metrica__itens-texto {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}

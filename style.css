@@ -1,0 +1,39 @@
+@import url(styles/reset.css);
+@import url(styles/header.css);
+@import url(styles/primeira-secao.css);
+@import url(styles/segunda-secao.css);
+@import url(styles/terceira-secao.css);
+
+:root {
+
+    /* CORES */
+    --text-color: #667085;
+    --title-color: #101828;
+    --main-color: #8e2424;
+    --main-color-opacity: rgba(142, 36, 36, 0.05);
+
+    /* FONTES */
+    --main-font: "Inter";
+
+    /* PADROES */
+    font-family: var(--main-font);
+    font-size: 16px;
+    width: auto;
+    white-space: nowrap;
+}
+
+h1 {
+    color: var(--title-color);
+}
+
+h3 {
+    color: var(--main-color)
+}
+
+h4 {
+    color: var(--title-color);
+}
+
+p {
+    color: var(--text-color);
+}
