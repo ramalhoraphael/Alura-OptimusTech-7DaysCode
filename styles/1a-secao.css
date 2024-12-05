@@ -19,26 +19,21 @@
 }
 
 #primeira-secao__por-que-somos-diferentes {
-
+    line-height: 3.75rem;
+    letter-spacing: -0.06rem;
     color: var(--title-color);
-    color: var(--Gray-900, #101828);
+    padding: 0.5rem 1rem;
     font-size: 3rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 3.75rem;
-    /* 125% */
-    letter-spacing: -0.06rem;
-    padding: 0.5rem 1rem;
+
 }
 
 #primeira-secao__nós-focamos {
-    color: var(--Gray-500, #667085);
-    font-family: Inter;
+    color: var(--text-color);
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.875rem;
     text-align: center;
-
-
 }

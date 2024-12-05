@@ -11,18 +11,15 @@
 
 .quarta-secao__lista-de-vagas__area {
     display: flex;
-    width: 80rem;
-    padding: 4rem 2rem 0 2rem;
-    flex-direction: column;
-    align-items: center;
-    width: 48rem;
     flex-direction: column;
     align-items: flex-start;
+    width: 80rem;
+    padding: 4rem 2rem 0 2rem;
+    width: 48rem;
     gap: 2rem;
 }
 
 .quarta-secao__lista-de-vagas__area-titulo {
-    color: var(--title-color);
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
@@ -41,17 +38,15 @@
     flex-direction: column;
     align-items: center;
     align-self: stretch;
-    border-radius: 1rem;
-    border: 0.2px solid var(--border-color);
-    gap: 1.5rem;
     width: 50rem;
     padding: 1.5rem 1.5rem 1.75rem 1.5rem;
     margin: 1.5rem;
-
+    border-radius: 1rem;
+    border: 0.2px solid var(--border-color);
+    gap: 1.5rem;
 }
 
 .quarta-secao__lista-de-vagas__titulo-vaga {
-    color: var(--title-color);
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 500;
@@ -67,8 +62,6 @@
 }
 
 .quarta-secao__lista-de-vagas__descricao-vaga {
-    color: var(--text-color);
-    font-family: Inter;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 500;

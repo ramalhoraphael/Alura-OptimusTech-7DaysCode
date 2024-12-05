@@ -2,41 +2,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    padding: 3.5rem 1rem;
     align-self: stretch;
-
+    padding: 3.5rem 1rem;
     border-radius: 1rem;
-    background: rgba(195, 25, 25, 0.03);
+    background: var(--background-opacity-5asecao);
     margin: 5rem 10rem;
 }
 
 #quinta-secao__titulo-menor {
-    align-self: stretch;
-
-    color: #8E2424;
     text-align: center;
-
-    /* Text sm/Semibold */
-    font-family: Inter;
+    align-self: stretch;
+    color: var(--main-color);
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 600;
     line-height: 1.25rem;
-    /* 142.857% */
 }
 
 #quinta-secao__titulo-maior {
-    color: #101828;
     text-align: center;
-
-    /* Display md/Medium */
-    font-family: Inter;
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 500;
     line-height: 2.75rem;
-    /* 122.222% */
     letter-spacing: -0.045rem;
     width: 68rem;
     margin: 1rem;
@@ -49,31 +37,20 @@
 
 #quinta-secao__nome {
     align-self: stretch;
-
-    color: var(--Gray-900, #101828);
+    color: var(--title-color);
     text-align: center;
-
-    /* Text md/Medium */
-    font-family: Inter;
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5rem;
-    /* 150% */
-    margin: 0.25rem;
+    margin: 1rem;
 }
 
-#quinta-secao__vaga {
+#quinta-secao__cargo {
     align-self: stretch;
-
-    color: var(--Gray-500, #667085);
     text-align: center;
-
-    /* Text sm/Normal */
-    font-family: Inter;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.25rem;
-    /* 142.857% */
 }

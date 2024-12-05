@@ -1,10 +1,10 @@
 @import url(styles/reset.css);
 @import url(styles/header.css);
-@import url(styles/primeira-secao.css);
-@import url(styles/segunda-secao.css);
-@import url(styles/terceira-secao.css);
-@import url(styles/quarta-secao.css);
-@import url(styles/quinta-secao.css);
+@import url(styles/1a-secao.css);
+@import url(styles/2a-secao.css);
+@import url(styles/3a-secao.css);
+@import url(styles/4a-secao.css);
+@import url(styles/5a-secao.css);
 @import url(styles/footer.css);
 
 :root {
@@ -15,6 +15,12 @@
     --main-color: #8e2424;
     --main-color-opacity: rgba(142, 36, 36, 0.05);
     --border-color: #EAECF0;
+    --border-color-alternative: #D0D5DD;
+    --copyright-color: #98A2B3;
+    --bottom-text-color: #ffffff;
+    --box-shadow-color: rgba(16, 24, 40, 0.05);
+    --background-opacity-5asecao: rgba(195, 25, 25, 0.03);
+    --background-opacity-footer: #F9FAFB;
 
     /* FONTES */
     --main-font: "Inter";
@@ -26,16 +32,15 @@
     white-space: nowrap;
 }
 
-h1 {
+h1,
+h4,
+h5,
+h6 {
     color: var(--title-color);
 }
 
 h3 {
     color: var(--main-color)
-}
-
-h4 {
-    color: var(--title-color);
 }
 
 p {

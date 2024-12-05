@@ -1,102 +1,72 @@
 .rodape {
     display: flex;
-    /*height: 11.375rem;*/
     padding: 5rem 2rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
     flex-shrink: 0;
 
-    /*height: 26.875rem;*/
     flex-direction: column;
     align-items: center;
     gap: 2rem;
     align-self: stretch;
-
-    background: var(--Gray-50, #F9FAFB);
-
+    background: var(--background-opacity-footer);
     margin-top: 8rem;
 }
 
-.rodape__item {}
+/*.rodape__item {}*/
 
 #rodape__titulo {
-    align-self: stretch;
-    color: var(--Gray-900, #101828);
     text-align: center;
-
-    /* Display md/Semibold */
-    font-family: Inter;
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 600;
     line-height: 2.75rem;
-    /* 122.222% */
     letter-spacing: -0.045rem;
 }
 
 #rodape__texto {
-    align-self: stretch;
-    color: var(--Gray-500, #667085);
     text-align: center;
-
-    /* Text xl/Normal */
-    font-family: Inter;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.875rem;
-    /* 150% */
-
 }
 
-.rodape__conjunto-input-botao {}
+/*.rodape__conjunto-input-botao {}*/
 
 #rodape__input-email {
-    border-radius: 0.5rem;
-    border: 1px solid #D0D5DD;
-    background: var(--Base-White, #FFF);
-
-    /* Shadow/xs */
-    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-
-    padding: 0.75rem 10rem 0.75rem 1rem;
     align-items: center;
-
-    align-self: stretch;
-
-    color: var(--Gray-500, #667085);
-
-    /* Text md/Normal */
-    font-family: Inter;
+    color: var(--text-color);
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5rem;
     margin-right: 1.25rem;
+    padding: 0.75rem 10rem 0.75rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color-alternative);
+    background: var(--bottom-text-color);
+    box-shadow: 0px 1px 2px 0px var(--box-shadow-cadastrar-color);
 }
 
 #rodape__botao-cadastrar {
+    color: var(--bottom-text-color);
+    align-items: center;
+    text-decoration: none;
     padding: 0.75rem 1.25rem;
     justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
     border-radius: 0.5rem;
-    border: 1px solid #8E2424;
-    background: #8E2424;
-    color: white;
-    text-decoration: none;
-    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    border: 1px solid var(--main-color);
+    background: var(--main-color);
+    box-shadow: 0px 1px 2px 0px var(--box-shadow-color);
 }
 
 #rodape__copyright {
-    color: var(--Gray-400, #98A2B3);
-
-    /* Text md/Normal */
-    font-family: Inter;
+    color: var(--copyright-color);
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5rem;
-    /* 150% */
+    text-align: center;
 }
